@@ -10,12 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_03_02_090831) do
+ActiveRecord::Schema.define(version: 2023_03_03_101510) do
 
   create_table "contacts", force: :cascade do |t|
     t.string "name"
     t.integer "phone"
     t.string "email_id"
+    t.integer "group_id"
+  end
+
+  create_table "groups", force: :cascade do |t|
+    t.string "groupname"
   end
 
 end

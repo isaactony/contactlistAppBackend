@@ -47,7 +47,16 @@ class ApplicationController < Sinatra::Base
       )
       contact.to_json
     end
+
+    get '/groups' do
+      groups = Group.all
+      groups.to_json()
+    end
+
+    get '/groups/:id' do
+      groups = Group.find(params[:id])
+      groups.to_json(include: :contacts)
+    end
+
   
-
-
 end
