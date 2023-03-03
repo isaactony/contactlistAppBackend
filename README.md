@@ -52,7 +52,7 @@ Updates an existing group with the specified ID. The request body should be in J
 DELETE /groups/:id
 Deletes the group with the specified ID.
 
-``
+```
 
 # Built With
 - Ruby
