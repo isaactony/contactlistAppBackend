@@ -60,7 +60,7 @@ Deletes the group with the specified ID.
 - SQLITE
 
 # Developer
-- Isaac TOnyloi
+- Isaac Tonyloi
 # Acknowledgments
 - Sinatra Documentation
 - SQLite Documentation
