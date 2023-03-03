@@ -18,8 +18,6 @@ You can find the front end here https://github.com/isaactony/contactAppReactFron
 - Run bundle exec rackup to start the server
 - The app will be available at http://localhost:9292
 
- ![Screenshot from 2023-03-03 18-36-14](https://user-images.githubusercontent.com/59682377/222763321-fe77526a-8ccb-4cc9-86a2-b36b2df11087.png)
-![Screenshot from 2023-03-03 18-36-18](https://user-images.githubusercontent.com/59682377/222763374-9e11f409-f5b1-4212-88b5-f9920935ca90.png)
 
 # The app has the following endpoints:
 
